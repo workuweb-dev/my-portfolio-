@@ -1,51 +1,85 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
 
 body{
-  height:100vh;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  background:linear-gradient(135deg,#4facfe,#00f2fe);
-  font-family:Arial, sans-serif;
+
+margin:0;
+
+font-family:Arial;
+
+background:#0f172a;
+
+color:white;
+
 }
 
-.card{
-  width:350px;
-  padding:40px;
-  text-align:center;
 
-  background:rgba(255,255,255,0.1);
-  backdrop-filter:blur(15px);
+.hero{
 
-  border:1px solid rgba(255,255,255,0.2);
-  border-radius:25px;
+height:100vh;
 
-  box-shadow:
-    0 8px 32px rgba(0,0,0,0.2);
+display:flex;
 
-  transform:perspective(1000px) rotateY(-10deg);
+justify-content:center;
+
+align-items:center;
+
 }
 
-.card h1{
-  color:white;
-  font-size:32px;
+
+
+.glass{
+
+padding:50px;
+
+border-radius:25px;
+
+background:rgba(255,255,255,0.1);
+
+backdrop-filter:blur(15px);
+
+text-align:center;
+
+box-shadow:0 0 40px rgba(0,0,0,.4);
+
 }
 
-.card p{
-  color:white;
-  margin:15px 0;
-}
+
 
 button{
-  padding:12px 30px;
-  border:none;
-  border-radius:30px;
-  background:white;
-  color:#4facfe;
-  font-weight:bold;
-  cursor:pointer;
+
+padding:15px 40px;
+
+border:none;
+
+border-radius:30px;
+
+background:#38bdf8;
+
+color:white;
+
+cursor:pointer;
+
+}
+
+
+
+section{
+
+padding:80px;
+
+text-align:center;
+
+}
+
+
+
+.projects p{
+
+background:#1e293b;
+
+padding:20px;
+
+margin:10px;
+
+border-radius:15px;
+
 }
