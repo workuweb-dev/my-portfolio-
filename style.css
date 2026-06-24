@@ -1,0 +1,51 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(135deg,#4facfe,#00f2fe);
+  font-family:Arial, sans-serif;
+}
+
+.card{
+  width:350px;
+  padding:40px;
+  text-align:center;
+
+  background:rgba(255,255,255,0.1);
+  backdrop-filter:blur(15px);
+
+  border:1px solid rgba(255,255,255,0.2);
+  border-radius:25px;
+
+  box-shadow:
+    0 8px 32px rgba(0,0,0,0.2);
+
+  transform:perspective(1000px) rotateY(-10deg);
+}
+
+.card h1{
+  color:white;
+  font-size:32px;
+}
+
+.card p{
+  color:white;
+  margin:15px 0;
+}
+
+button{
+  padding:12px 30px;
+  border:none;
+  border-radius:30px;
+  background:white;
+  color:#4facfe;
+  font-weight:bold;
+  cursor:pointer;
+}
